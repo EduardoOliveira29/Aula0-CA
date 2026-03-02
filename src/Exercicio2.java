@@ -18,12 +18,12 @@ public class Exercicio2 {
         }
         calculaMedia(n, nota1, nota2,media);
         for (int i=0;i<n;i++){
-            System.out.println("------------------------------------");
+            System.out.println("-------------------------------------");
 
             System.out.println("rm"+rm[i]+" Média:"+media[i]);
         }
         int nAp=geraListaAprovados(n,rm,media,rmAprovado);
-        System.out.println("------------------------------------");
+        System.out.println("-------------------------------------");
         for (int i=0;i<nAp;i++){
             System.out.println("Aprovados: "+rmAprovado[i]);
         }
